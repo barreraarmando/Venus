@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Sign up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .signup{
+                position: relative;
+                left: 50%;
+                width: 50%;
+                margin-top: 10%;
+                height: 80%;
+            }
+            .text{
+                position: relative;
+                display: list-item;
+                width: 30%;
+                height: 4%;
+                left: 35%;
+                margin-bottom: 9px;
+                border-radius: 5px;
+                border-color: #DDB3C7;
+                border-collapse: inherit;
+                color: grey;
+                text-align: center;
+            }
+            .submit{
+                position: relative;
+                width: 13%;
+                margin-top: 6px;
+                height: 6%;
+                left: 43%;
+                border-radius: 7px;
+                background-color: #DDB3C7;
+                border: none;
+            }
+            img{
+                position: absolute;
+                left: 5%;
+                width: 40%;
+                top: 9%;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <img src="logo.png">
+            <div class="signup">
+                <form name="signup">
+                    <input type="text" name="nombre" value="Nombre" class="text">
+                    <input type="text" name="ap" value="Apellido paterno" class="text">
+                    <input type="text" name="am" value="Apellido materno" class="text">
+                    <input type="text" name="user" value="Usuario" class="text">
+                    <input type="text" name="contra" value="Contraseña" class="text">
+                    <input type="text" value="Confirmar contraseña" class="text">
+                    <input type="text" name="email" value="Correo" class="text">
+                    <input type="text" value="Confirmar correo" class="text">
+                    <input type="submit" value="Registrarse" class="submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
