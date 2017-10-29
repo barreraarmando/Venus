@@ -19,15 +19,17 @@ and open the template in the editor.
                 <Img src="../Img/logo1.jpg" alt="logo">
             </div>
             <div class="Div2">
-                <div class="ochenta"><br>
-                    <input type="text" class="R" value="Nombre" onclick = "if(this.value==='Nombre') this.value=''">
-                    <input type="text" class="R" value="Apellido(s)" onclick = "if(this.value==='Apellido(s)') this.value=''">
-                    <input type="text" class="R" value="Username" onclick = "if(this.value==='Username') this.value=''">
-                    <input type="text" class="R" value="Contraseña" onclick = "if(this.value==='Contraseña') this.value=''">
-                    <input type="text" class="R" value="Confirmar Contraseña" onclick = "if(this.value==='Confirmar Contraseña') this.value=''">
-                    <input type="text" class="R" value="Correo electrónico" onclick = "if(this.value==='Correo electrónico') this.value=''"><br><br>
-                    <center><button>Registrarse</button></center>
-                </div>
+                <form name="Subir registro" action="alta.jsp">
+                    <div class="ochenta"><br>
+                        <input type="text" class="R" value="Nombre" onclick = "if(this.value==='Nombre') this.value=''">
+                        <input type="text" class="R" value="Apellido(s)" onclick = "if(this.value==='Apellido(s)') this.value=''">
+                        <input type="text" class="R" value="Username" onclick = "if(this.value==='Username') this.value=''">
+                        <input type="text" class="R" value="Contraseña" onclick = "if(this.value==='Contraseña') this.value=''">
+                        <input type="text" class="R" value="Confirmar Contraseña" onclick = "if(this.value==='Confirmar Contraseña') this.value=''">
+                        <input type="text" class="R" value="Correo electrónico" onclick = "if(this.value==='Correo electrónico') this.value=''"><br><br>
+                        <center><button>Registrarse</button></center>
+                    </div>
+                </form>
             </div>
         </div>
     </body>
